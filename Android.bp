@@ -1,0 +1,665 @@
+// Automatically generated file. DO NOT MODIFY
+//
+
+soong_namespace {
+    imports: [
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "libBSD_jni",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libBSD_jni.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libBST_DualCalibration_Service",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libBST_DualCalibration_Service.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libBSTAiScene",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libBSTAiScene.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libBSTbase_share_prebuilt",
+    stem: "libBSTbase_share",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libBSTbase_share.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libBSTBeauty_prebuilt",
+    stem: "libBSTBeauty",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libBSTBeauty.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libBSTDocShadowRemove",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libBSTDocShadowRemove.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libBSTFaceDetction",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libBSTFaceDetction.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libBSTFoodMode",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libBSTFoodMode.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libBSTHDRDETECT_prebuilt",
+    stem: "libBSTHDRDETECT",    
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libBSTHDRDETECT.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libBSTHdrDynamicJni",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libBSTHdrDynamicJni.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libBSTMultiExpoGainHDR_prebuilt",
+    stem: "libBSTMultiExpoGainHDR",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libBSTMultiExpoGainHDR.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libBSTSingleAIDoc",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libBSTSingleAIDoc.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libBSTSpecialEffect",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libBSTSpecialEffect.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libBstStick2D",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libBstStick2D.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libc++_shared",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libc++_shared.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libdualAfternative-lib",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libdualAfternative-lib.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libdualAfterSale",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libdualAfterSale.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libfusion",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libfusion.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libjni_imageutils",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libjni_imageutils.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libjniBstAiDoc",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libjniBstAiDoc.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libjniBstAiScene",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libjniBstAiScene.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libjniBstBeauty",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libjniBstBeauty.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libjniBstFoodMode",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libjniBstFoodMode.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libjniBstSticker",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libjniBstSticker.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmt_detect_palm",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libmt_detect_palm.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmt_filter_gl",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libmt_filter_gl.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmt_portrait_matting",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libmt_portrait_matting.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libMTFilters",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libMTFilters.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libMTFiltersPreview",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libMTFiltersPreview.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libMTRefocus_jni",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libMTRefocus_jni.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libMTRefocus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libMTRefocus.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libMTSingleBokeh_jni",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libMTSingleBokeh_jni.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libMTSingleBokeh",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libMTSingleBokeh.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libSEF.quram",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libSEF.quram.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libwingrefocusJni",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libwingrefocusJni.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libwt_blur",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libwt_blur.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libwt_panorama",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libwt_panorama.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libjpega.camera.samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libjpega.camera.samsung.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libimagecodec.quram",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libimagecodec.quram.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libfloatingfeature_prebuilt",
+    stem: "libfloatingfeature",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libfloatingfeature.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libagifencoder.quram",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libagifencoder.quram.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libBarcodeReader.quram",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libBarcodeReader.quram.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libexifa.camera.samsung_prebuilt",
+    stem: "libexifa.camera.samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/system/lib64/libexifa.camera.samsung.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+}
+
+prebuilt_etc {
+    name: "floating_feature.xml",
+    src: "proprietary/system/etc/floating_feature.xml",
+    sub_dir: "etc",
+    filename_from_src: true,
+}
+
+android_app_import {
+    name: "WingCam-N28",
+    owner: "samsung",
+    apk: "proprietary/system/priv-app/WingCam-N28/WingCam-N28.apk",
+    overrides: ["Aperture", "Camera", "Camera2", "GoogleCameraGo", "GCamGOPrebuilt"],
+    presigned: true,
+    preprocessed: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    skip_preprocessed_apk_checks: true,
+}
+
+android_app_import {
+    name: "Sec_CamMediaProvider",
+    owner: "samsung",
+    apk: "proprietary/system/priv-app/CamMediaProvider/CamMediaProvider.apk",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    skip_preprocessed_apk_checks: true,
+}
+
+prebuilt_etc_xml {
+    name: "privapp_whitelist_com.sec.android.app.camera.xml",
+    owner: "samsung",
+    src: "proprietary/system/etc/permissions/privapp_whitelist_com.sec.android.app.camera.xml",
+    filename_from_src: true,
+    sub_dir: "permissions",
+}
+
+prebuilt_etc_xml {
+    name: "privapp-permissions-me.ayra.android.providers.media.xml",
+    owner: "samsung",
+    src: "proprietary/system/etc/permissions/privapp-permissions-me.ayra.android.providers.media.xml",
+    filename_from_src: true,
+    sub_dir: "permissions",
+}

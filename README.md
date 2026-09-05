@@ -32,6 +32,6 @@
   - Capture Videos in External SD [Bug from Samsung Side]
 
 ## Credits
-- [AyraMediaProvider]https://github.com/AyraHikari/SamsungGalleryPort/tree/master/system/priv-app/AyraMediaProvider
+- [AyraMediaProvider](https://github.com/AyraHikari/SamsungGalleryPort/tree/master/system/priv-app/AyraMediaProvider)
 
 
